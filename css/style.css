@@ -13,6 +13,15 @@ ul {
   list-style: none;
 }
 
+.button_1 {
+  height: 38px;
+  background-color: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+}
+
 .container {
   width: 80%;
   margin: auto;
@@ -91,5 +100,26 @@ header .current a {
 
 #showcase p {
   font-size: 20px;
+}
+
+#newsletter {
+  padding: 15px;
+  color: #fff;
+  background-color: #35424a;
+}
+
+#newsletter h1 {
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter form input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
 }
 /*# sourceMappingURL=style.css.map */

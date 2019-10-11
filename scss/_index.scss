@@ -67,3 +67,25 @@ header {
     font-size: 20px;
   }
 }
+
+// Newsletter 
+#newsletter {
+  padding: 15px;
+  color: #fff;
+  background-color: #35424a;
+
+  h1 {
+    float: left;
+  }
+
+  form {
+    float: right;
+    margin-top: 15px;
+
+    input[type="email"] {
+      padding: 4px;
+      height: 25px;
+      width: 250px;
+    }
+  }
+}
