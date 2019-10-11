@@ -5,4 +5,45 @@ header {
   padding-top: 30px;
   min-height: 70px;
   border-bottom: 3px solid #e8491d;
+
+  #branding {
+    float: left;
+
+    h1 {
+      margin: 0;
+    }
+  }
+
+  nav {
+    float: right;
+    margin-top: 10px;
+
+    ul {
+
+      li {
+        display: inline;
+        padding: 0 20px 0 20px;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-size: 16px;
+          border-bottom: 1px solid transparent;
+
+          &:hover {
+            color: #ccc;
+            border-color: #ccc;
+          }
+        }
+      }
+    }
+  }
+
+  .highlight,
+  .current a {
+    color: #e8491d;
+    font-weight: bold;
+  }
+
 }
