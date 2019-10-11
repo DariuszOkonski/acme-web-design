@@ -89,3 +89,21 @@ header {
     }
   }
 }
+
+// Boxes
+#boxes {
+  padding-top: 20px;
+  background-color: #fff;
+
+  .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+
+    img {
+      width: 90px;
+      height: 90px;
+    }
+  }
+}

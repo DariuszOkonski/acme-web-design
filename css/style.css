@@ -122,4 +122,21 @@ header .current a {
   height: 25px;
   width: 250px;
 }
+
+#boxes {
+  padding-top: 20px;
+  background-color: #fff;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img {
+  width: 90px;
+  height: 90px;
+}
 /*# sourceMappingURL=style.css.map */
