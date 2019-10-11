@@ -139,4 +139,11 @@ header .current a {
   width: 90px;
   height: 90px;
 }
+
+footer {
+  padding: 20px;
+  color: #fff;
+  background-color: #e8491d;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
