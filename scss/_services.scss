@@ -1,0 +1,23 @@
+// Services 
+#main-services {
+  #services {
+    li {
+      list-style: none;
+      padding: 20px;
+      border: 1px solid #ccc;
+      margin-bottom: 5px;
+      background-color: #e6e6e6;
+    }
+  }
+
+  #sidebar {
+    .quote {
+
+      input,
+      textarea {
+        width: 90%;
+        padding: 5px;
+      }
+    }
+  }
+}
