@@ -178,4 +178,18 @@ footer {
   width: 30%;
   margin-top: 10px;
 }
+
+#main-services #services li {
+  list-style: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  background-color: #e6e6e6;
+}
+
+#main-services #sidebar .quote input,
+#main-services #sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
+}
 /*# sourceMappingURL=style.css.map */
