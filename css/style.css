@@ -192,4 +192,50 @@ footer {
   width: 90%;
   padding: 5px;
 }
+
+@media (max-width: 768px) {
+  header {
+    padding-bottom: 20px;
+  }
+  header #branding,
+  header nav,
+  header li {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  #showcase h1 {
+    margin-top: 40px;
+  }
+  #newsletter h1,
+  #newsletter form {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  #newsletter h1 input[type="email"],
+  #newsletter form input[type="email"] {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  #newsletter button {
+    display: block;
+    width: 100%;
+  }
+  #boxes .box {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  #main #main-col,
+  #main #sidebar,
+  #main .quote button,
+  #main-services #main-col,
+  #main-services #sidebar,
+  #main-services .quote button {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
