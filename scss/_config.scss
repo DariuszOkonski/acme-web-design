@@ -8,8 +8,22 @@ body {
 }
 
 // Global 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .container {
   width: 80%;
   margin: auto;
   overflow: hidden;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  width: 100%;
 }
